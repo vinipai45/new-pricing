@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  z-index: -1;
+}
+
+body #bg {
+  background-color: #2196f3;
+  width: 100%;
+  height: 50%;
+}
+
+body #bg nav {
+  margin-top: 0px;
+}
+
+body #bg .container {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body .card {
+  width: 200px;
+  height: 300px;
+  margin-top: -150px;
+  margin-bottom: 155px;
+  -webkit-box-shadow: 0 4px 8px 0 gray;
+          box-shadow: 0 4px 8px 0 gray;
+}
+
+body .card .btn-primary {
+  margin-top: 70px;
+  margin-left: 23px;
+  background-color: transparent;
+  color: #2196f3;
+  border: #2196f3 solid 1px;
+}
+
+body .card .btn-primary:hover {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+  -webkit-box-shadow: 0 4px 8px 0 gray;
+          box-shadow: 0 4px 8px 0 gray;
+}
+
+body .card .card-title {
+  color: #2196f3;
+  margin-left: 29px;
+  padding: 10px;
+}
+
+body .card i {
+  margin-left: 55px;
+  padding: 0px;
+  font-size: 50px;
+}
+
+body .card #price {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 53px;
+}
+
+body .card #mbit {
+  margin-left: 35px;
+  letter-spacing: 0.1em;
+  color: gray;
+}
+
+body .card:hover {
+  -webkit-transition: all 500ms ease;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=style.css.map */
